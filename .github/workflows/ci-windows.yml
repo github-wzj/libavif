@@ -7,7 +7,7 @@
 #     https://gitlab.kitware.com/cmake/cmake/-/issues/20585
 #   * Runs ext/*.cmd as Windows batch files rather than using bash. This is
 #     important for ext/svt.cmd, to prevent it from running ext/svt.sh.
-#   * Builds with local libjpeg (-DAVIF_JPEG=LOCAL).
+#   * Builds with local libjpeg (-DAVIF_JPEG=LOCAL).6
 #   * Builds with local zlib and libpng (-DAVIF_ZLIBPNG=LOCAL).
 
 name: CI Windows
